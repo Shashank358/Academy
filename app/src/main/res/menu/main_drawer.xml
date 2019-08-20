@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_location"
+            android:icon="@drawable/ic_my_location_black_24dp"
+            android:title="Live Location" />
+        <item
+            android:id="@+id/menu_route"
+            android:icon="@drawable/ic_import_export_black_24dp"
+            android:title="Assign Route" />
+        <item
+            android:id="@+id/menu_vehicles"
+            android:icon="@drawable/ic_airport_shuttle_black_24dp"
+            android:title="Assign Vehicles" />
+        <item
+            android:id="@+id/menu_students"
+            android:icon="@drawable/ic_local_library_black_24dp"
+            android:title="Assign Students" />
+        <item
+            android:id="@+id/menu_calendar"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Holiday Calendar" />
+        <item
+            android:id="@+id/menu_attendance"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/menu_fees"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Collected Fees" />
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Logout" />
+    </group>
+
+</menu>

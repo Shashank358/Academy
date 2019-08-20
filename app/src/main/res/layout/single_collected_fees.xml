@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/fees_student_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name of student"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/fees_distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distance Traveled" />
+
+    <TextView
+        android:id="@+id/fees_total_fees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Fees"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/fees_pending_fees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pending fees"
+        android:textColor="@color/colorAccent" />
+</LinearLayout>
